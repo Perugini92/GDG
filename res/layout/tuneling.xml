@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tunneling DNS con Iodine"
+        android:id="@+id/textView"
+        android:textSize="25dp"
+        android:background="@drawable/a"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Gianluca Gabrielli &amp; Samuele Cacchiarelli"
+        android:id="@+id/textView2"
+        android:textSize="18dp"
+        android:background="@drawable/a"
+        android:autoText="true"
+        android:gravity="center" />
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="20dp"
+            android:text="Verrà descritta una tecnica di incapsulamento che sfrutta un server DNS appositamente modificato per permettere la navigazione anonima e gratuita da qualsiasi rete permetta di risolvere i nomi a domionio, ma blocchi la navigazione.\n
+Un caso esemplare i captive portal, ovvero le reti wifi libere degli: alberghi, aereoporti, centri commerciali, centro città, bar, ristoranti, ecc...\nTutti quei punti di accesso che una volta colleghati vi conducono su di una pagina che richiede una registrazione e spesso bisogna pagare per avere un limitato numero di ore a disposizione per la navigazione.\n
+C'è da precisare che l'ultilizzo di questa tecnologia è illegale, verrà trattato a scopo puramente didattico.\n"
+            />
+
+    </ScrollView>
+
+</LinearLayout>

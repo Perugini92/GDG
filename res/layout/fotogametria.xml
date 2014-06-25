@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fotogrametria"
+        android:id="@+id/textView"
+        android:textSize="25dp"
+        android:background="@drawable/a"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Speaker: Antonio Feliziani APRItalia"
+        android:id="@+id/textView2"
+        android:textSize="18dp"
+        android:background="@drawable/a"
+        android:autoText="true"
+        android:gravity="center" />
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="20dp"
+            android:text="La fotogrammetria permette di identificare la posizione spaziale di tutti i punti d'interesse dell'oggetto considerato. Questa tecnica, per quanto originariamente nata per essere utilizzata nel rilievo architettonico, è attualmente utilizzata in massima parte per il rilevamento topografico del territorio, sviluppandosi principalmente nella forma della fotogrammetria aerea.\nUno dei maggiori ostacoli che fino a poco tempo fa non ne hanno permesso il pieno utilizzo è stato sicuramente l'elevato costo delle attrezzature necessarie alla fotogrammetria.\nIn seguito lo sviluppo di calcolatori in grado di gestire una grande quantità di dati e della grafica computerizzata ne hanno permesso un utilizzo più semplice e rapido e con costi minori.\nL'avvento di queste tecnologie, infatti, hanno reso obsolete le vecchie apparecchiature ottiche.\nIn seguito a questi cambiamenti, la fotogrammetria è ora utilizzata anche in ambiti dove raramente era utilizzata in passato.\nAttualmente la fotogrammetria rappresenta una delle tecniche di acquisizione dei dati del territorio tra le più affidabili, economiche e precise. Essa è molto utile nell'analisi dei cambiamenti del territorio.\n
+\nNel particolare l'ordine del giorno sarà:\n
+Fotogrammetria\n
+Stereoscopia\n
+Fase di presa\n
+Fase di orientamento\n
+Fase di restituzione\n
+Uso da APR per presa\n
+Demo del processo di orientamento e restituzione con PhotoScan\n"
+            />
+
+    </ScrollView>
+
+</LinearLayout>

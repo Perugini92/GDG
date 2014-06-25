@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Google I/O - Keynote"
+        android:id="@+id/textView"
+        android:textSize="25dp"
+        android:background="@drawable/a"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Live Streaming From San Francisco "
+        android:id="@+id/textView2"
+        android:textSize="18dp"
+        android:background="@drawable/a"
+        android:autoText="true"
+        android:gravity="center" />
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="20dp"
+            android:text="Il Google I/O è l'evento più importante per la casa di Redmond durante il quale le figure di spicco dei team tecnologici di Google raccontano le novità sui prodotti.\nL'evento, suddiviso in due giornate, si tiene al Moscone West Convention Center di San Francisco (California, USA) e la sua audience è soprattutto riferita al mondo degli sviluppatori e dei designer o comunque a tutti coloro che utilizzano i prodotti Google.\n
+Le giornate iniziano dalle ore 9:00 alle ore 15:00 e prevedono Sessioni, Code Labs, Sandbox e il primo giorno anche un After Hour dalle ore 16:30 alle ore 20:00 (gli orari sono PDT ossia 9 ore indietro rispetto a noi).\nDurante queste sessioni spesso è disponibile lo streaming live accessibile direttamente dal sito dell'evento di Google.\n
+Il primo streaming del primo giorno è il Keynote, ossia una maxi conferenza di 2 ore per presentate le novità sui loro prodotti.\nE' la parte meno tecnica ma sicuramente la più interessante per chi non può recarsi a San Francisco...\n
+(Descrizione Scritta dal GDG Brescia)"
+            />
+
+    </ScrollView>
+
+</LinearLayout>

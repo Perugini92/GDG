@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Aeromobili a Pilotaggio Remoto"
+        android:id="@+id/textView"
+        android:textSize="25dp"
+        android:background="@drawable/a"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Antonio Feliziani APRItalia"
+        android:id="@+id/textView2"
+        android:textSize="18dp"
+        android:background="@drawable/a"
+        android:autoText="true"
+        android:gravity="center" />
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="20dp"
+            android:text="Un aeromobile a pilotaggio remoto o APR, comunemente noto come drone, è un velivolo caratterizzato dall'assenza del pilota umano a bordo.\nIl suo volo è controllato dal computer a bordo del velivolo, sotto il controllo remoto di un navigatore o pilota, sul terreno o in un altro veicolo.\nL'inclusione del termine aeromobile sottolinea che, indipendentemente dalla posizione del pilota e/o dell'equipaggio di volo, le operazioni devono rispettare le stesse regole e le procedure degli aerei con pilota ed equipaggio di volo a bordo.\nIl loro utilizzo è ormai consolidato per usi militari e crescente anche per applicazioni civili, ad esempio in operazioni di prevenzione e intervento in emergenza incendi, per usi di sicurezza non militari, per sorveglianza di oleodotti, con finalità di telerilevamento e ricerca e, più in generale, in tutti i casi in cui tali sistemi possano consentire l'esecuzione di missioni noiose, sporche e pericolose \nNel particolare l'ordine del giorno sarà:\n
+Cosa sono i droni (APR) e come sono fatti\nPrincipi di funzionamento\nComponenti e configurazioni\nDifferenze tra SAPR &amp; Aereomodelli\nlegislatura vigente ENAC\nEsempio di usi ed applicazioni\nStrumenti per pianificare una missione\n\n"
+            />
+
+    </ScrollView>
+
+</LinearLayout>

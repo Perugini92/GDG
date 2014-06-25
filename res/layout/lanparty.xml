@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Lan &amp; Installation Party"
+        android:id="@+id/textView"
+        android:textSize="25dp"
+        android:background="@drawable/a"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="CameLUG - Camerino Linux User Group"
+        android:id="@+id/textView2"
+        android:textSize="18dp"
+        android:background="@drawable/a"
+        android:autoText="true"
+        android:gravity="center" />
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="20dp"
+            android:text="L'associazione CameLUG - Camerino Linux User Group terminerà la serata con un bel LanParty, tutti i presenti avranno la possibilità di sfidarsi ad OpenArena uno sparatutto 3D gratuito in prima persona.\n
+Per chi non volesse sporcarsi le mani ma vuole restare in buona compagnia parallelamente al LanParty avverà L'Istallation Party, vedremo insieme le differenze tra le varie distro LINUX per poter scegliere cosi la vostra preferita e ovvimaente Installarla Insieme.
+Non Mancate!\n"
+            />
+
+    </ScrollView>
+
+</LinearLayout>

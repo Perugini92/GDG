@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.marco.gdg.camerino" >
+    <!-- GCM connects to Google Services. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_gdg32"
+        android:label="GDG Camerino"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity
+            android:name="com.marco.gdg.camerino.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.marco.gdg.camerino.Main"
+            android:label="GDG I/O Extended 2014"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:parentActivityName=".MainActivity"
+            android:hardwareAccelerated="true">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
+            </activity>
+
+        <activity
+            android:name=".Aeromobili"
+            android:label="Droni e Multirotori"
+            android:icon="@drawable/ic_gdg7"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FotoGametria"
+            android:label="Fotogametria"
+            android:icon="@drawable/ic_gdg7"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ExtendedArea"
+            android:label="Extend Area"
+            android:icon="@drawable/ic_gdg7"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".KeyNote"
+            android:label="KeyNote Streaming"
+            android:icon="@drawable/ic_gdg7"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
+       
+        </activity>
+        <activity
+            android:name=".TuneLing"
+            android:label="Tunneling DNS con Iodine"
+            android:icon="@drawable/ic_gdg7"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".LanParty"
+            android:label="Lan &amp; Installation Party"
+            android:icon="@drawable/ic_gdg7"
+            android:parentActivityName=".Main">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+
+        </activity>
+        <activity
+            android:name=".Board"
+            android:label="Lezione Teorica sulla Board"
+            android:icon="@drawable/ic_gdg7"
+            android:parentActivityName=".Main">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

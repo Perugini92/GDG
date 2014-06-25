@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="#ffffffff"
+    android:layout_height="match_parent">
+    //Inizio Mattina
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            android:text="09.00\n10.00"
+            android:textSize="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#1200009e" />
+
+    </LinearLayout>
+    //Registrazione
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="Registrazione"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:autoText="false"
+        android:background="@drawable/abc_ab_bottom_transparent_light_holo"
+        android:textColor="#69000006"
+         />
+
+    //ORE 10-11.30
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_marginTop="61dp">
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            android:text="10.00\n11.30"
+            android:textSize="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#1200009e"
+            android:autoText="false" />
+
+    </LinearLayout>
+    //Feliziani
+
+    <TextView
+        android:layout_marginTop="61dp"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="Aereomobili a Pilotaggio Remoto"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:autoText="false"
+        android:background="@drawable/abc_ab_bottom_transparent_light_holo"
+        android:textColor="@drawable/colore"
+        android:id="@+id/tx1"
+        android:clickable="true" />
+    //ORE 11.30-12
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:layout_marginTop="122dp">
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            android:text="11.30\n12.00"
+            android:textSize="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#1200009e" />
+
+    </LinearLayout>
+
+    //Caffe
+    <TextView
+        android:layout_marginTop="122dp"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="Coffè Break"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/abc_ab_bottom_transparent_light_holo"
+        android:textColor="#69000006"
+        android:id="@+id/textView" />
+
+    //Ore 12-13
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4"
+        android:layout_marginTop="183dp">
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            android:text="12.00\n13.00"
+            android:textSize="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#1200009e"
+            android:autoText="false" />
+
+    </LinearLayout>
+
+    //Feliziani
+    <TextView
+        android:layout_marginTop="183dp"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="Aereomobili a Pilotaggio Remoto"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:autoText="false"
+        android:background="@drawable/abc_ab_bottom_transparent_light_holo"
+        android:textColor="@drawable/colore"
+        android:id="@+id/tx2"
+        android:clickable="true" />
+
+    //ORE 13-15
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5"
+        android:layout_marginTop="244dp">
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            android:text="13.00\n14.30"
+            android:textSize="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#1200009e" />
+
+    </LinearLayout>
+
+    //Pranzo
+    <TextView
+        android:layout_marginTop="244dp"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="Lunch"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/abc_ab_bottom_transparent_light_holo"
+        android:textColor="#69000006"
+        android:id="@+id/textView3"
+        android:singleLine="false" />
+
+    //Ore 15-17.00
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout6"
+        android:layout_marginTop="305dp">
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            android:text="14.30\n17.00"
+            android:textSize="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#1200009e"
+            android:autoText="false" />
+
+    </LinearLayout>
+
+    //Feliziani
+    <TextView
+        android:layout_marginTop="305dp"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="Fotogrammetria"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:autoText="false"
+        android:background="@drawable/abc_ab_bottom_transparent_light_holo"
+        android:textColor="@drawable/colore"
+        android:id="@+id/tx3"
+        android:clickable="true" />
+
+    //ORE 17.00-17.30
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout7"
+        android:layout_marginTop="366dp">
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            android:text="17.00\n17.10"
+            android:textSize="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#1200009e" />
+
+    </LinearLayout>
+
+    //Pranzo
+    <TextView
+        android:layout_marginTop="366dp"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="Coffè Break"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/abc_ab_bottom_transparent_light_holo"
+        android:textColor="#69000006"
+        android:id="@+id/textView2" />
+
+    //Ore 17.30-18.00
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout8"
+        android:layout_marginTop="427dp">
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            android:text="17.10\n18.00"
+            android:textSize="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#1200009e"
+            android:autoText="false" />
+
+    </LinearLayout>
+
+    //Speker
+    <TextView
+        android:layout_marginTop="427dp"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="Extended area"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:autoText="false"
+        android:background="@drawable/abc_ab_bottom_transparent_light_holo"
+        android:textColor="@drawable/colore"
+        android:id="@+id/tx4"
+        android:clickable="true" />
+
+    //Ore 18.00-20.00
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout9"
+        android:layout_marginTop="488dp">
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            android:text="18.00\n20.00"
+            android:textSize="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#1200009e"
+            android:autoText="false" />
+
+    </LinearLayout>
+
+    //KeyNote
+    <TextView
+        android:layout_marginTop="488dp"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="Keynote in live stream"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:autoText="false"
+        android:background="@drawable/abc_ab_bottom_transparent_light_holo"
+        android:textColor="@drawable/colore"
+        android:id="@+id/tx5"
+        android:clickable="true" />
+
+    //Ore 20-21
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout10"
+        android:layout_marginTop="549dp">
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            android:text="20.00\n21.00"
+            android:textSize="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#1200009e" />
+
+    </LinearLayout>
+
+    //Cena
+    <TextView
+        android:layout_marginTop="549dp"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="Dinner"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/abc_ab_bottom_transparent_light_holo"
+        android:textColor="#69000006"
+        android:id="@+id/textView4" />
+
+    //Ore 21.00-22.30
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout11"
+        android:layout_marginTop="610dp">
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            android:text="21.00\n22.30"
+            android:textSize="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#1200009e"
+            android:autoText="false" />
+
+    </LinearLayout>
+
+    //Gianluca
+    <TextView
+        android:layout_marginTop="610dp"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="Tunneling DNS con Iodine"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:autoText="false"
+        android:background="@drawable/abc_ab_bottom_transparent_light_holo"
+        android:textColor="@drawable/colore"
+        android:id="@+id/tx6"
+        android:clickable="true" />
+
+    //Ore 22.30- ...
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout12"
+        android:layout_marginTop="671dp">
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            android:text="22.30\n..."
+            android:textSize="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#1200009e"
+            android:autoText="false" />
+
+    </LinearLayout>
+
+    //LanPArty
+    <TextView
+        android:layout_marginTop="671dp"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:text="Lan &amp; Installation Party"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:autoText="false"
+        android:background="@drawable/abc_ab_bottom_transparent_light_holo"
+        android:textColor="@drawable/colore"
+        android:id="@+id/tx7"
+        android:clickable="true" />
+
+
+
+
+</RelativeLayout>
+    </ScrollView>
